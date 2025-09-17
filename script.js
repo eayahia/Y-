@@ -2,3 +2,11 @@ let nombre1 = 10;
 let nombre2 = 5;
 let somme = nombre1 + nombre2;
 console.log("La somme est : " + somme);
+
+function addition(a, b) {
+    return a + b;
+  }
+  
+  let somme2= addition(8, 5);
+  console.log("La somme2 est : " + somme2);
+  
